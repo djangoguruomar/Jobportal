@@ -1,0 +1,227 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+background-color: rgb(62, 169, 196);
+
+}
+
+.button{
+
+    color: White;
+    font-weight: bolder;
+    font-size: larger;
+    border-style: solid;
+    border-color:white;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color:transparent;
+    width: 150px;
+}
+
+
+.header{
+
+    width: 100%;
+    background-color: darkblue;
+}
+
+
+
+nav ul{
+
+    background-color: darkblue;
+
+    
+}
+
+nav li{
+    
+    display: inline-block;
+    padding: 10px;
+   
+
+}
+
+nav a{
+
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-style: oblique;
+    font-weight: bold;
+
+}
+
+nav a:hover{
+
+    color:chartreuse;
+
+}
+
+
+.footer {
+
+    background-color: black !important;
+    margin: 10px;
+    width: 100%;
+
+}
+
+/* .col-4{
+position: relative;
+display: inline;
+align-content: center;
+border-radius: 10px;
+padding:10px 30px;
+border-style: solid;
+border-color:grey;
+border-width: 2px;
+} */
+
+
+.footer li{
+    list-style: none;
+
+    color: white;
+    font-size: smaller;
+    text-align: center;
+}
+
+
+.footer a {
+
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+.col a:hover{
+
+    color:chartreuse;
+}
+
+.ad-search{
+
+box-shadow: #bec9b3;
+background-color:rgb(62, 169, 196);
+border-radius: 10px;
+width: 100%;
+
+}
+
+.ad-search label{
+    padding-bottom: 5px;
+
+}
+.ad-search #in{
+width: 220px;
+border-radius: 20px;
+height: 60px;
+padding: 20px;
+
+
+}
+
+.ad-search form{
+position: relative;
+    left: 30px;
+}
+
+h2,h3{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+img{
+
+    width: 100px;
+    height: 35px;
+}
+
+.cv-button{
+background-color: rgb(25, 25, 95);
+border-radius: 10px;
+border-style: solid;
+padding: 10px;
+margin: 10px;
+position: relative;
+float: left;
+
+
+}
+
+
+.cv-button a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.job-view-card{
+
+    background-color:rgb(228, 214, 214);
+    position: relative;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    flex-grow: 1;
+    margin-bottom: 5px;
+
+
+}
+
+.job-view-card li, .catg-jobs li{
+
+    display: block;
+
+}
+
+.col-3,.col-9{
+
+    min-width: 300px;
+    padding: 0px;
+}
+
+.div-jobs, .catg-jobs{
+margin: auto;
+background-color:  #2A5992;
+border-radius: 10px;
+padding-bottom: 10px;
+margin-top: 10px;
+padding-left: 5px;
+
+}
+.div-jobs button{
+
+    border-style: solid;
+    border-radius: 10px;
+    background-color:transparent;
+    border-color: white;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+
+
+}
+.div-jobs a, .catg-jobs a{
+text-decoration: none;
+color: white;
+padding: 5px;
+
+}
+.div-jobs a:hover, .catg-jobs a:hover{
+
+    color:red;
+    font-weight: bold;
+}
+

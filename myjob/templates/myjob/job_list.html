@@ -1,0 +1,12 @@
+
+<ul>
+{% for job in job_list  %}
+
+<li> 
+
+<a href="{{job.get_absolute_url}}"> {{job.title}} </a> ({{job.recruiter.company}}) 
+
+</li>
+
+{% endfor %}
+</ul>

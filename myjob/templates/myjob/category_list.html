@@ -1,0 +1,5 @@
+{% for cat in category_list %}
+<p>
+<a href="{{cat.get_absolute_url}}"> {{cat}} </a>
+</p>
+{% endfor %}

@@ -1,0 +1,12 @@
+<ul>
+{% for candidate in jobseeker_list %}
+
+
+<li> 
+
+<a href="{{candidate.get_absolute_url}}"> {{candidate.name}} </a> ({{candidate.category}})
+
+</li>
+
+{% endfor %}
+</ul>

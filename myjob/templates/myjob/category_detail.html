@@ -1,0 +1,6 @@
+{% for job in  category.job_set.all %}
+
+
+<a href="{{job.get_absolute_url}}">{{job.title}}</a>
+
+{% endfor %}

@@ -1,0 +1,149 @@
+
+
+{% extends 'myjob/main.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-9">
+      {% for job in jobs %}
+  
+
+
+
+
+    <div class="job-view-card" onclick="location.href='base.html'"style="cursor: pointer;">
+      <ul>
+  
+      <li><h5  style="color: green;text-align: left;">{{job.title}}</h5></li>
+      <li><h6>{{job.recruiter.company}}</h6></li>
+      <li><img src="location-pin.svg" alt="" style="width: 30px;height: 30px;padding: 5px;"  > Gazipur </li>
+      <li><img src="cap.svg" alt="" style="width: 30px;height: 30px;padding: 5px;"  >  B.Sc. in EEE/ IPE from any reputed university. </li>
+      <li><img src="bfcase.png" alt="" style="width: 30px;height: 30px;padding: 5px;"  > At least 4 year(s) </li>
+  
+      </ul>
+    
+    </div>
+      {% endfor %}
+     </div>
+    
+
+
+
+
+
+
+    <div class="col-3">
+      <div class="ad-search">
+        <h2> Advanced Job Search </h2>
+        <form action="">
+        <p>
+        <label for=""> Search by Keyword </label>
+        <br>
+         <input type="text" name="" id="in" placeholder="  Type one or two keyword  "> 
+        </p>
+        
+          <p>
+            <label>Experience Level</label><br>
+        
+            <label>
+              <input type="radio" name="title" value="">
+             Entry
+            </label>
+        
+            <label>
+              <input type="radio" name="title" value="">
+              Mid-Senior
+            </label>
+        
+            <label>
+        <input type="radio" name="title" value="">
+              Senior
+            </label>
+        
+          </p>
+        
+        
+        
+          <p>
+            <label>Location</label><br>
+            <select>
+              <option>Dhaka</option>
+              <option>Chattogram</option>
+              <option>Sylhet</option>
+              <option>Barishal</option>
+              <option>Khulna</option>
+            </select>
+          </p>
+        
+        
+          <button style="position:relative; left:30%; bottom: 10px; margin:20px;" type="submit">Search</button>
+        </form>
+        </div>
+
+        <div class="div-jobs">
+
+          <h3>Divisional Jobs</h3>
+     <button><a href="">Dhaka</a></button>
+     <button><a href="">Chattogram</a></button>
+     <button><a href="">Rajshahi</a></button>
+     <button><a href="">Barishal</a></button>
+     <button><a href="">Khulna</a></button>
+     <button><a href="">Sylhet</a></button>
+     <button><a href="">Rangpur</a></button>
+
+
+
+        </div>
+
+
+        <div class="catg-jobs">
+          <h3>Browse Category</h3>
+          <ul>
+            <li><a href="">Education/Training</a></li>
+            <li><a href=""> HR/Org. Development</a></li>
+            <li><a href="">IT & Telecommunication</a></li>
+
+
+
+          </ul>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <div style="float: right;" class="cv-button">
+
+          <a href=""> <h1>Make a CV now!</h1>  </a>
+      
+      </div>
+        </div>
+        </div>
+        
+      
+
+
+
+
+
+  </div>
+
+
+
+
+</div>
+
+
+
+{% endblock %}
